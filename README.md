@@ -9,4 +9,7 @@ wget "https://raw.githubusercontent.com/Firegle-ctrl/apt-sources-list/main/debia
 
 # 替换系统源列表为新文件
 sudo cp Debian13Trixie.txt /etc/apt/sources.list
+
+# 清理本地缓存并刷新软件源
+sudo apt clean && sudo apt update
 ```
