@@ -1,0 +1,11 @@
+# 清华大学 (TUNA) 镜像源配置
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
+
+# 清华大学 (TUNA) 安全更新源配置
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security/ buster/updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ buster/updates main contrib non-free
+
+# 清华大学 (TUNA) buster-updates 更新源配置
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
